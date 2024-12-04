@@ -1,0 +1,57 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+/*Box-sizing to border box */
+/* This includes padding and border to the H and W of the element */
+
+h1 {
+  background-color: pink;
+  text-align: center;
+}
+
+.container {
+  background-color: green;
+  height: 75vh;
+  padding: 10px;
+}
+
+div {
+  font-size: 20px;
+  color: blueviolet;
+  font-weight: bold;
+}
+
+.one,
+.two,
+.three {
+  padding: 15px;
+  height: 100px;
+  width: 100px;
+}
+
+.one {
+  background-color: aqua;
+}
+
+.two {
+  background-color: orange;
+}
+
+.three {
+  background-color: brown;
+}
+
+/* CSS Flexbox code */
+
+.container {
+  display: flex;
+  /* flex-direction: column; */
+  /* flex-direction: column-reverse; */
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+}

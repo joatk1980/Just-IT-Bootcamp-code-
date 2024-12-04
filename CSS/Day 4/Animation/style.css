@@ -1,0 +1,75 @@
+@keyframes animation1 {
+  from {
+    background-color: red;
+    color: aquamarine;
+  }
+  to {
+    background-color: blue;
+    color: brown;
+  }
+}
+
+.exampleOne {
+  /* link animation to the element */
+  animation-name: animation1;
+
+  /* set a duration for the animation */
+  animation-duration: 10s;
+
+  /* Set delay at start of the animation */
+  animation-delay: 3s;
+}
+
+/* We can also add animation in percentage from 1-100 */
+@keyframes example2 {
+  0% {
+    background-color: blue;
+  }
+  25% {
+    background-color: green;
+  }
+
+  50% {
+    background-color: purple;
+  }
+
+  70% {
+    background-color: deeppink;
+  }
+  100% {
+    background-color: yellow;
+  }
+}
+.exampleTwo {
+  animation-name: example2;
+  animation-duration: 15s;
+
+  animation-fill-mode: both;
+}
+
+/* Example Three */
+
+@keyframes animation3 {
+  from {
+    /* starts animation off the page */
+    left: -100px;
+  }
+
+  to {
+    /* makes the animation go right across the page */
+    left: 100%;
+  }
+}
+
+.exampleThree {
+  background-color: crimson;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: relative;
+
+  animation-name: animation3, example2;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}

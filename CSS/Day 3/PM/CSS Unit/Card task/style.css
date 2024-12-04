@@ -1,0 +1,22 @@
+.card {
+  width: 16rem;
+  background-color: beige;
+  border-radius: 5px;
+  overflow: hidden;
+  /* text-align: center; */
+}
+
+.card img {
+  width: 100%;
+}
+
+h1,
+p {
+  margin: 10px 20px;
+}
+
+button {
+  padding: 5px 10px;
+  display: block;
+  margin: auto;
+}

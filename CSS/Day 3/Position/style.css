@@ -1,0 +1,66 @@
+h1 {
+  background-color: gold;
+  text-align: center;
+  /*position: sticky;*/
+  /*top: 0;*/
+}
+
+.parent {
+  width: 500px;
+  height: 500px;
+  background-color: burlywood;
+  text-align: center;
+  /*position: relative; */
+}
+
+.child {
+  width: 100px;
+  margin: 10px;
+  height: 70px;
+}
+
+.one {
+  background-color: blueviolet;
+  /* position: relative;
+  left: 20px;*/
+}
+
+.two {
+  background-color: brown;
+  /*position: absolute;
+  top: 10px;
+  left: 200px;*/
+}
+
+.three {
+  background-color: teal;
+  /*position: fixed;*/
+}
+
+.four {
+  background-color: green;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: sticky;
+  top: 0;
+  background-color: pink;
+}
+
+ul li {
+  display: inline-block;
+}
+
+button {
+  padding: 5px;
+  margin: 5px;
+  background-color: pink;
+  border: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}

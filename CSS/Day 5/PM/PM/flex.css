@@ -1,0 +1,17 @@
+.container {
+  background-color: gold;
+}
+
+.container a {
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .container a {
+    display: block;
+  }
+}

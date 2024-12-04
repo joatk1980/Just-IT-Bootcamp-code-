@@ -1,0 +1,36 @@
+div {
+  height: 50px;
+  margin: 10px 0;
+  background-color: bisque;
+}
+
+.pixel {
+  font-size: 10px;
+}
+
+.em {
+  font-size: 15px;
+  width: 10em;
+}
+
+html {
+  font-size: 20px;
+}
+
+/* html is the root element - its default font size is 16px */
+.rem {
+  font-size: 0.5rem;
+  width: 10rem;
+}
+
+img {
+  height: 100%;
+  width: 50%;
+}
+
+/* vh - viewport height */
+/* viewport width */
+
+.main {
+  height: 90vh;
+}

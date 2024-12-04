@@ -1,0 +1,51 @@
+.box {
+  background-color: brown;
+  padding: 1rem;
+  border: 2px solid black;
+  color: white;
+  font-size: 20px;
+}
+
+/* Grid Code */
+.container {
+  background-color: bisque;
+  /* Give us access to CSS grid properties */
+  display: grid;
+
+  /* define the number and size of columns in grid container*/
+  /* grid-template-columns: 50px minmax (200px, auto) 50px 50px 50px 50px; */
+  /* define the number and size of rows in grid container */
+  /*grid-template-rows: 50px 50px 50px 50px 50px 50px;*/
+  /* grid-template-columns: repeat(6, 50px);
+  grid-template-rows: repeat(6, 50px); */
+  /* grid-template-row */
+  /* column-gap: 5px;
+  row-gap: 10px; */
+  gap: 10px;
+
+  /* unit stands for 'fractional unit' and is used to distribute available space within the grid container */
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+}
+
+.box1 {
+  font-size: 60px;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+.box2 {
+  /* grid-column-start: 5;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 7; */
+  grid-column: 5/7;
+  grid-row: 1/7;
+}
+
+/* .box3 {
+  grid-column: 4/6;
+  grid-row: 2/4;
+} */

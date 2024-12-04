@@ -1,0 +1,55 @@
+/* * {
+  border: 2px solid;
+} */
+
+/*Element Selector*/
+/*h1 {
+  background-color: orange;
+}
+
+/*CLASS Selector*/
+/*.para {
+  background-color: burlywood;
+}
+/* ID selector */
+/*#para2 {
+  background-color: coral;
+} */
+
+/* Group Selector */
+/*h1,
+.para,
+.box {
+  background-color: yellow;
+} */
+
+/*Fonts in css */
+/*Web fonts */
+/* Google fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.para {
+  font-family: "Roboto", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  color: black;
+  background-color: turquoise;
+  text-align: center;
+  letter-spacing: 2px;
+  line-height: 30px;
+}
+
+.para2 {
+  font-family: cursive;
+  font-size: 40px;
+  color: blue;
+}
+
+body {
+  background-image: url("https://tse3.mm.bing.net/th/id/OIP.CBFZpMOFqyCjyHOJxouwVAHaE8?rs=1&pid=ImgDetMain");
+}
+
+.secondHead {
+  border: 5px solid pink;
+  padding: 20px 10px 20px 10px;
+  margin: 10px;
+}
